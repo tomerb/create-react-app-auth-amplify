@@ -18,5 +18,12 @@ export type AmplifyDependentResourcesAttributes = {
             "GraphQLAPIIdOutput": "string",
             "GraphQLAPIEndpointOutput": "string"
         }
+    },
+    "analytics": {
+        "createreactappautham": {
+            "Region": "string",
+            "Id": "string",
+            "appName": "string"
+        }
     }
 }

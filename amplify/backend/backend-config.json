@@ -43,5 +43,11 @@
         }
       }
     }
+  },
+  "analytics": {
+    "createreactappautham": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }

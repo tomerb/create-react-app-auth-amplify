@@ -1,0 +1,21 @@
+{
+    "appName": "createreactappautham",
+    "roleName": "pinpointLambdaRole5ed0d8e3",
+    "cloudformationPolicyName": "cloudformationPolicy5ed0d8e3",
+    "cloudWatchPolicyName": "cloudWatchPolicy5ed0d8e3",
+    "pinpointPolicyName": "pinpointPolicy5ed0d8e3",
+    "authPolicyName": "pinpoint_amplify_5ed0d8e3",
+    "unauthPolicyName": "pinpoint_amplify_5ed0d8e3",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

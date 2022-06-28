@@ -2,7 +2,7 @@
   "version": "1",
   "cognitoConfig": {
     "identityPoolName": "cognitocf0c6096_identitypool_cf0c6096",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "cognit0ea40abe",
     "userPoolName": "cognitocf0c6096_userpool_cf0c6096",
     "autoVerifiedAttributes": [
